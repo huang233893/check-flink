@@ -47,7 +47,7 @@ jobs:
     - name: Run Python script to check frined-links
       env:
         PROXY_URL: ${{ secrets.PROXY_URL }}
-        SOURCE_URL: https://www.sumi233.top/flink_count.json
+        SOURCE_URL: https://www.sumi233.top/link.json
       run: |
         echo "SOURCE_URL: $SOURCE_URL"
         python main.py
